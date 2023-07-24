@@ -12,12 +12,14 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+    // Tools
     public static final Item COPPER_PICKAXE = registerItem("copper_pickaxe", new Item(new FabricItemSettings()));
     public static final Item COPPER_AXE = registerItem("copper_axe", new Item(new FabricItemSettings()));
     public static final Item COPPER_SHOVEL = registerItem("copper_shovel", new Item(new FabricItemSettings()));
     public static final Item COPPER_SWORD = registerItem("copper_sword", new Item(new FabricItemSettings()));
     public static final Item COPPER_HOE = registerItem("copper_hoe", new Item(new FabricItemSettings()));
 
+    // Armor
     public static final Item COPPER_HELMET = registerItem("copper_helmet", new Item(new FabricItemSettings()));
     public static final Item COPPER_CHESTPLATE = registerItem("copper_chestplate", new Item(new FabricItemSettings()));
     public static final Item COPPER_LEGGINGS = registerItem("copper_leggings", new Item(new FabricItemSettings()));
