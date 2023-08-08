@@ -2,8 +2,6 @@ package com.bshaven.coppergear;
 
 import net.fabricmc.api.ModInitializer;
 
-import com.bshaven.coppergear.block.ModBlocks;
-import com.bshaven.coppergear.item.ModItemGroups;
 import com.bshaven.coppergear.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,8 +12,6 @@ public class CopperGear implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
 	}
 }
