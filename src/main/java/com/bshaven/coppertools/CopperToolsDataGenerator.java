@@ -1,9 +1,9 @@
-package com.bshaven.coppergear;
+package com.bshaven.coppertools;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class CopperGearDataGenerator implements DataGeneratorEntrypoint {
+public class CopperToolsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 

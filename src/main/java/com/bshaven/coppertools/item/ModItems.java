@@ -1,7 +1,7 @@
-package com.bshaven.coppergear.item;
+package com.bshaven.coppertools.item;
 
-import com.bshaven.coppergear.CopperGear;
-import com.bshaven.coppergear.item.material.CopperToolMaterial;
+import com.bshaven.coppertools.CopperTools;
+import com.bshaven.coppertools.item.material.CopperToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -35,7 +35,6 @@ public class ModItems {
         entries.add(COPPER_PICKAXE);
         entries.add(COPPER_AXE);
         entries.add(COPPER_SHOVEL);
-        entries.add(COPPER_SWORD);
         entries.add(COPPER_HOE);
     }
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries) {
@@ -43,11 +42,11 @@ public class ModItems {
     }
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(CopperGear.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(CopperTools.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        CopperGear.LOGGER.info("Registering Mod Items for " + CopperGear.MOD_ID);
+        CopperTools.LOGGER.info("Registering Mod Items for " + CopperTools.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToToolsItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemsToCombatItemGroup);
     }

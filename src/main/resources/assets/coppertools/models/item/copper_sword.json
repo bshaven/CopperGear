@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "coppergear:item/copper_pickaxe"
+    "layer0": "coppertools:item/copper_sword"
   }
 }

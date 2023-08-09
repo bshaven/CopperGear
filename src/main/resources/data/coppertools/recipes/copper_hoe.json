@@ -10,12 +10,12 @@
     }
   },
   "pattern": [
-    "X",
-    "#",
-    "#"
+    "XX",
+    " #",
+    " #"
   ],
   "result": {
-    "item": "coppergear:copper_shovel"
+    "item": "coppertools:copper_hoe"
   },
   "show_notification": true
 }

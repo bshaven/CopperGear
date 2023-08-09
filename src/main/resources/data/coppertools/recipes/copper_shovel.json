@@ -11,11 +11,11 @@
   },
   "pattern": [
     "X",
-    "X",
+    "#",
     "#"
   ],
   "result": {
-    "item": "coppergear:copper_sword"
+    "item": "coppertools:copper_shovel"
   },
   "show_notification": true
 }

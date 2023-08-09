@@ -1,32 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorialmod",
+	"id": "coppertools",
 	"version": "${version}",
-	"name": "Tutorial Mod",
-	"description": "This is a Tutorial Mod made by Kaupenjoe :)",
+	"name": "CopperTools",
+	"description": "bshaven",
 	"authors": [
-		"Kaupenjoe!"
+		"bshaven!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/tutorialmod/icon.png",
+	"icon": "assets/coppertools/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.bshaven.coppergear.CopperGear"
+			"com.bshaven.coppertools.CopperTools"
 		],
 		"client": [
-			"com.bshaven.coppergear.CopperGearClient"
+			"com.bshaven.coppertools.CopperToolsClient"
 		],
 		"fabric-datagen": [
-			"com.bshaven.coppergear.CopperGearDataGenerator"
+			"com.bshaven.coppertools.CopperToolsDataGenerator"
 		]
 	},
 	"mixins": [
-		"tutorialmod.mixins.json"
+		"coppertools.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",

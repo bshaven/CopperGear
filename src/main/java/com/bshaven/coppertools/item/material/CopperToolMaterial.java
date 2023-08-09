@@ -1,4 +1,4 @@
-package com.bshaven.coppergear.item.material;
+package com.bshaven.coppertools.item.material;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
