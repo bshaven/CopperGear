@@ -14,5 +14,10 @@ public class CopperTools implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("CopperTools is loading. Have fun crafting with copper!");
 		ModItems.registerModItems();
+
+		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+			LOGGER.info("CopperTools is unloading. Have fun next time!");
+		}));
 	}
+
 }

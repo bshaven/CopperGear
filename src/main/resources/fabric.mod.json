@@ -3,9 +3,9 @@
 	"id": "coppertools",
 	"version": "${version}",
 	"name": "CopperTools",
-	"description": "bshaven",
+	"description": "Finally use that extra copper to make some tools!",
 	"authors": [
-		"bshaven!"
+		"bshaven"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
